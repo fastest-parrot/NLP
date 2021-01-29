@@ -47,10 +47,17 @@ Is-a, has-a, uses-a .. non-hierarchical relationships
 ***Shallow Parsing***: gets down to the word and sentence structure level. semantic types (e.g., location, org, person), semantic roles (e.g., agents, theme), sense distinctions (e.g., WordNet, OntoNotes), entity resolution
 
 ***Feature Engineering:***
+<<<<<<< HEAD
 the process of using domain knowledge to extract ”hand crafted” features from raw data via data mining techniques. These features can be used to improve the performance of machine learning algorithms. 
 
 ***Feature Learning:***
 set of techniques that allows a system to automatically discover the representations needed for feature detection or classification from raw data. 
+=======
+the process of using domain knowledge to extract ”hand crafted” features from raw data via data mining techniques. These features can be used to improve the performance of machine learning algorithms. 
+
+***Feature Learning:***
+set of techniques that allows a system to automatically discover the representations needed for feature detection or classification from raw data. 
+>>>>>>> b8586a1276e1e29dc0892229cfc1b22e17a0fdab
 
 ***Top down NLP***: high level concepts and categories
 
@@ -60,7 +67,11 @@ set of techniques that allows a system to automatically discover the representat
 
 ***Word tokenization***: convert a string of characters into a sequence of tokens (usually based on a separator: , | ' ')
 
+<<<<<<< HEAD
 ***Stop Words***: Extremely common “function” words that are of little value in helping select documents matching a user need  
+=======
+***Stop Words***: Extremely common “function” words that are of little value in helping select documents matching a user need  
+>>>>>>> b8586a1276e1e29dc0892229cfc1b22e17a0fdab
 
 ***Lexical Knowledge Bases***: 
 
@@ -116,8 +127,12 @@ set of techniques that allows a system to automatically discover the representat
 
 **PMI – pointwise mutual information***
 
+<<<<<<< HEAD
 ***Word2Vec*** 
 Complexity of neural network language models comes with non-linear hidden layers. Word2Vec models are simpler (probably not as accurate) but more scalable
+=======
+***Word2Vec***: Complexity of neural network language models comes with non-linear hidden layers. Word2Vec models are simpler (probably not as accurate) but more scalable
+>>>>>>> b8586a1276e1e29dc0892229cfc1b22e17a0fdab
 
 - SkipGram: 
  - Focus word is the single input vector, and the target context words are the output layer
@@ -127,7 +142,12 @@ Complexity of neural network language models comes with non-linear hidden layers
   - Each word is coded in one-hot form
   - Single hidden layer and single output layer
   
+<<<<<<< HEAD
 **Skip-gram: works well with small amount of training data, is able to represent well rare words and phrases well. CBOW: several times faster to train than skip-gram, slightly better accuracy for frequent words**
+=======
+**Skip-gram: works well with small amount of training data, is able to represent well rare words and phrases well. 
+CBOW: several times faster to train than skip-gram, slightly better accuracy for frequent words**
+>>>>>>> b8586a1276e1e29dc0892229cfc1b22e17a0fdab
 
 
 ***Document Clustering***: Unsupervised machine learning 
@@ -146,6 +166,7 @@ Organize a corpus of documents into various groups based on some features/attrib
 - Interpretability can be a problem: sometimes the answer isn’t useful
 
 
+<<<<<<< HEAD
 ***Latent Semantic Analysis (LSA)***
 -  A form os SVD
 - Uncovers latent hidden terms which correlate semantically to form topics.
@@ -160,6 +181,21 @@ Organize a corpus of documents into various groups based on some features/attrib
 - Queries are short-text, sparse, and don’t provide enough word counts for models to learn how words are related and to disambiguate multiple meanings of a single word. (e.g., see LDA output with words in incorrect categories)
 
 ***Sentiment Analysis (SA)***
+=======
+***Latent Semantic Analysis (LSA)***: A form os SVD
+- Uncovers latent hidden terms which correlate semantically to form topics.
+- Words that are close in meaning will occur in similar pieces of text (hence topics are unlikely to share words)
+
+***Latent Dirichlet  (LDA)***:
+- Generative probabilistic model – each item of a collection (document) is modelled as a finite mixture over an underlying set of topic probabilities; each topic is modelled as an infinite mixture over an underlying set of word probabilities.
+- Probability distributions over words vs topic-topic matrix (LSA) – different topics can share keywords
+
+***Semantic Topic Modeling***:
+- Find common topics in queries to get deeper insights
+- Queries are short-text, sparse, and don’t provide enough word counts for models to learn how words are related and to disambiguate multiple meanings of a single word. (e.g., see LDA output with words in incorrect categories)
+
+***Sentiment Analysis (SA)***:
+>>>>>>> b8586a1276e1e29dc0892229cfc1b22e17a0fdab
 - Also known as opinion mining, opinion analysis, 
 - Unstructured textual data has facts (objective) and opinions (subjective)
 - Computational study of opinions, sentiments and emotions expressed in text. 
@@ -167,3 +203,7 @@ Organize a corpus of documents into various groups based on some features/attrib
 - Polarity: positive, negative, or a neutral sentiment. 
 - Advanced analysis: complex emotions such as sadness, happiness, anger, and sarcasm. 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> b8586a1276e1e29dc0892229cfc1b22e17a0fdab
