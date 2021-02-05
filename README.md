@@ -47,17 +47,14 @@ Is-a, has-a, uses-a .. non-hierarchical relationships
 ***Shallow Parsing***: gets down to the word and sentence structure level. semantic types (e.g., location, org, person), semantic roles (e.g., agents, theme), sense distinctions (e.g., WordNet, OntoNotes), entity resolution
 
 ***Feature Engineering:***
-<<<<<<< HEAD
 the process of using domain knowledge to extract ”hand crafted” features from raw data via data mining techniques. These features can be used to improve the performance of machine learning algorithms. 
 
 ***Feature Learning:***
 set of techniques that allows a system to automatically discover the representations needed for feature detection or classification from raw data. 
-=======
 the process of using domain knowledge to extract ”hand crafted” features from raw data via data mining techniques. These features can be used to improve the performance of machine learning algorithms. 
 
 ***Feature Learning:***
 set of techniques that allows a system to automatically discover the representations needed for feature detection or classification from raw data. 
->>>>>>> b8586a1276e1e29dc0892229cfc1b22e17a0fdab
 
 ***Top down NLP***: high level concepts and categories
 
@@ -67,11 +64,7 @@ set of techniques that allows a system to automatically discover the representat
 
 ***Word tokenization***: convert a string of characters into a sequence of tokens (usually based on a separator: , | ' ')
 
-<<<<<<< HEAD
 ***Stop Words***: Extremely common “function” words that are of little value in helping select documents matching a user need  
-=======
-***Stop Words***: Extremely common “function” words that are of little value in helping select documents matching a user need  
->>>>>>> b8586a1276e1e29dc0892229cfc1b22e17a0fdab
 
 ***Lexical Knowledge Bases***: 
 
